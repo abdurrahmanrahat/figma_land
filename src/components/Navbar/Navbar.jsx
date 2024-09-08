@@ -4,7 +4,7 @@ import { FaFacebookSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { IMAGES } from "../../image-data";
 
-const UserSidebar = () => {
+const Navbar = () => {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
   const [scrollBgColor, setScrollBgColor] = useState(false);
 
@@ -123,9 +123,9 @@ const UserSidebar = () => {
 
           {/* social */}
           <div className="hidden md:flex text-[22px] gap-5 mt-2">
-            <FaLinkedin />
-            <FaTwitterSquare />
-            <FaFacebookSquare />
+            <FaLinkedin className="cursor-pointer" />
+            <FaTwitterSquare className="cursor-pointer" />
+            <FaFacebookSquare className="cursor-pointer" />
           </div>
         </div>
       </div>
@@ -133,10 +133,4 @@ const UserSidebar = () => {
   );
 };
 
-export default UserSidebar;
-
-{
-  /* <li className="font-medium md:text-[18px] hover:text-[#0095CF] transition-all duration-500">
-  <ActiveLink href="/flashsale">Flash Sale</ActiveLink>
-</li>; */
-}
+export default Navbar;

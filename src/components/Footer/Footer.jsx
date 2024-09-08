@@ -74,9 +74,9 @@ const Footer = () => {
               <p className="text-[15px] tracking-[0.2px]">(239) 555-0108</p>
             </div>
             <div className="text-[22px] flex gap-5">
-              <FaLinkedin />
-              <FaTwitterSquare />
-              <FaFacebookSquare />
+              <FaLinkedin className="cursor-pointer" />
+              <FaTwitterSquare className="cursor-pointer" />
+              <FaFacebookSquare className="cursor-pointer" />
             </div>
           </div>
         </div>

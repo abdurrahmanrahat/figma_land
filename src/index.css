@@ -11,3 +11,12 @@
 .container-class {
     @apply max-w-[1240px] mx-auto px-[4%] md:px-0
 }
+
+
+.container-padding-bottom {
+    padding-bottom: 40px;
+}
+
+.react-multi-carousel-dot--active button {
+    background-color: #2091f9 !important;
+}

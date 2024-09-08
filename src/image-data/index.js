@@ -9,6 +9,8 @@ import partner02 from "./Home/partner02.png";
 import partner03 from "./Home/partner03.png";
 import partner04 from "./Home/partner04.png";
 import partner05 from "./Home/partner05.png";
+import testimonialAvatar from "./Home/testimonial-avatar.png";
+import testimonialLogo from "./Home/testimonial-logo.png";
 import video from "./Home/video.png";
 import logo from "./logo.png";
 
@@ -29,5 +31,9 @@ export const IMAGES = {
         partner03,
         partner04,
         partner05,
+    },
+    Testimonials: {
+        testimonialLogo,
+        testimonialAvatar
     }
 }
