@@ -2,6 +2,7 @@ import fastest from "./Home/fastest.png";
 import feature01 from "./Home/features01.png";
 import feature02 from "./Home/features02.png";
 import feature03 from "./Home/features03.png";
+import fingertip from "./Home/fingertip.png";
 import hero from "./Home/hero.png";
 import video from "./Home/video.png";
 import logo from "./logo.png";
@@ -15,5 +16,6 @@ export const IMAGES = {
         feature02,
         feature03
     },
-    fastest
+    fastest,
+    fingertip
 }
