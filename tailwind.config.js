@@ -14,8 +14,13 @@ export default {
     },
     extend: {
       colors: {
-        primary: "#2091f9"
-      }
+        primary: "#2091f9",
+        secondary: "#252B42",
+        textGray: "#374754"
+      },
+      boxShadow: {
+        custom: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
+      },
     },
   },
   plugins: [require("daisyui")],

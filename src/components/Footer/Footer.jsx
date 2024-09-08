@@ -4,7 +4,7 @@ import { IoLocationOutline, IoPhonePortraitOutline } from "react-icons/io5";
 const Footer = () => {
   return (
     <div className="bg-[#252b42] text-white">
-      <div className="max-w-[1240px] mx-auto px-[4%] md:px-0">
+      <div className="container-class">
         <div className="py-[90px] grid grid-cols-1 sm:grid-cols-4 gap-20 sm:gap-0 text-center sm:text-start">
           {/* col 01 */}
           <div>
@@ -13,19 +13,19 @@ const Footer = () => {
             </h3>
 
             <ul className="space-y-5">
-              <li className="text-[15px] tracking-[0.2] cursor-pointer">
+              <li className="text-[15px] tracking-[0.2px] cursor-pointer">
                 Home
               </li>
-              <li className="text-[15px] tracking-[0.2] cursor-pointer">
+              <li className="text-[15px] tracking-[0.2px] cursor-pointer">
                 About
               </li>
-              <li className="text-[15px] tracking-[0.2] cursor-pointer">
+              <li className="text-[15px] tracking-[0.2px] cursor-pointer">
                 Contact
               </li>
-              <li className="text-[15px] tracking-[0.2] cursor-pointer">
+              <li className="text-[15px] tracking-[0.2px] cursor-pointer">
                 Price
               </li>
-              <li className="text-[15px] tracking-[0.2] cursor-pointer">
+              <li className="text-[15px] tracking-[0.2px] cursor-pointer">
                 Products
               </li>
             </ul>
@@ -38,11 +38,11 @@ const Footer = () => {
             </h3>
 
             <ul className="space-y-5">
-              <li className="text-[15px] tracking-[0.2]">Eleanor Edwards</li>
-              <li className="text-[15px] tracking-[0.2]">Ted Robertson</li>
-              <li className="text-[15px] tracking-[0.2]">Annette Russel</li>
-              <li className="text-[15px] tracking-[0.2]">Jannie Mckinney</li>
-              <li className="text-[15px] tracking-[0.2]">Gloria Richards</li>
+              <li className="text-[15px] tracking-[0.2px]">Eleanor Edwards</li>
+              <li className="text-[15px] tracking-[0.2px]">Ted Robertson</li>
+              <li className="text-[15px] tracking-[0.2px]">Annette Russel</li>
+              <li className="text-[15px] tracking-[0.2px]">Jannie Mckinney</li>
+              <li className="text-[15px] tracking-[0.2px]">Gloria Richards</li>
             </ul>
           </div>
 
@@ -53,11 +53,11 @@ const Footer = () => {
             </h3>
 
             <ul className="space-y-5">
-              <li className="text-[15px] tracking-[0.2]">Philip Jones</li>
-              <li className="text-[15px] tracking-[0.2]">Product</li>
-              <li className="text-[15px] tracking-[0.2]">Colleen Russell</li>
-              <li className="text-[15px] tracking-[0.2]">Marvin Hawkins</li>
-              <li className="text-[15px] tracking-[0.2]">Bruce Simmons</li>
+              <li className="text-[15px] tracking-[0.2px]">Philip Jones</li>
+              <li className="text-[15px] tracking-[0.2px]">Product</li>
+              <li className="text-[15px] tracking-[0.2px]">Colleen Russell</li>
+              <li className="text-[15px] tracking-[0.2px]">Marvin Hawkins</li>
+              <li className="text-[15px] tracking-[0.2px]">Bruce Simmons</li>
             </ul>
           </div>
 
@@ -65,13 +65,13 @@ const Footer = () => {
           <div className="flex flex-col justify-center items-center sm:items-start gap-5">
             <div className="flex gap-2">
               <IoLocationOutline className="text-[22px]" />
-              <p className="text-[15px] tracking-[0.2]">
+              <p className="text-[15px] tracking-[0.2px]">
                 7480 Mockingbird Hill undefined
               </p>
             </div>
             <div className="flex gap-2">
               <IoPhonePortraitOutline className="text-[22px]" />
-              <p className="text-[15px] tracking-[0.2]">(239) 555-0108</p>
+              <p className="text-[15px] tracking-[0.2px]">(239) 555-0108</p>
             </div>
             <div className="text-[22px] flex gap-5">
               <FaLinkedin />

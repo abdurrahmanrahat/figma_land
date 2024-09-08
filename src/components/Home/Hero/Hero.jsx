@@ -17,7 +17,7 @@ const Hero = () => {
           <h1 className="text-[48px] leading-[55px] md:text-[60px] md:leading-[69px] lg:text-[74px] lg:leading-[84px] tracking-wide font-bold capitalize text-center max-w-[17ch]">
             The best products start with Figma
           </h1>
-          <p className="text-white text-[28px] leading-[40px] mt-[30px] mb-[60px] tracking-[0.2px] px-10 md:px-0 text-center max-w-[49ch]">
+          <p className="text-white text-[28px] leading-[40px] mt-[30px] mb-[60px] tracking-[0.2px] px-10 sm:px-0 text-center max-w-[49ch]">
             Most calendars are designed for teams.{" "}
             <span className="hidden sm:block">
               Slate is designed for freelancers

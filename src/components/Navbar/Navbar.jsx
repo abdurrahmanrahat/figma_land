@@ -69,7 +69,7 @@ const UserSidebar = () => {
           : "bg-transparent"
       } text-white fixed top-0 left-0 z-[999] w-full h-auto`}
     >
-      <div className="max-w-[1240px] mx-auto px-[4%] md:px-0">
+      <div className="container-class">
         <div className="flex items-center justify-between py-4">
           {/* Nav items section */}
           <div className="md:flex gap-5">
