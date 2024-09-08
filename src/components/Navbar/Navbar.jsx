@@ -6,6 +6,7 @@ import { IMAGES } from "../../image-data";
 
 const UserSidebar = () => {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
+  const [scrollBgColor, setScrollBgColor] = useState(false);
 
   // Toggle function to handle the navbar's display
   const handleNavToggle = () => {
@@ -40,8 +41,34 @@ const UserSidebar = () => {
     };
   }, [isOpenMenu]);
 
+  const listenToScroll = () => {
+    let addBgColorHeight = 200;
+    const windowScrollHeight =
+      document.body.scrollTop || document.documentElement.scrollTop;
+
+    if (windowScrollHeight > addBgColorHeight) {
+      setScrollBgColor(true);
+    } else {
+      setScrollBgColor(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", listenToScroll);
+
+    return () => {
+      window.removeEventListener("scroll", listenToScroll);
+    };
+  }, []);
+
   return (
-    <div className="bg-transparent text-white px-4 md:px-0 py-4 md:py-0 fixed top-0 left-0 z-[999] w-full h-auto">
+    <div
+      className={` ${
+        scrollBgColor
+          ? "bg-black transition-all duration-1000"
+          : "bg-transparent"
+      } text-white px-4 md:px-0 py-4 md:py-0 fixed top-0 left-0 z-[999] w-full h-auto`}
+    >
       <div className="max-w-[1240px] mx-auto px-[4%] md:px-0">
         <div className="flex items-center justify-between py-4">
           {/* Nav items section */}
