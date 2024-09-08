@@ -1,3 +1,4 @@
+import fastest from "./Home/fastest.png";
 import feature01 from "./Home/features01.png";
 import feature02 from "./Home/features02.png";
 import feature03 from "./Home/features03.png";
@@ -13,5 +14,6 @@ export const IMAGES = {
         feature01,
         feature02,
         feature03
-    }
+    },
+    fastest
 }

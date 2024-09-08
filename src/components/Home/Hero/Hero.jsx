@@ -23,7 +23,7 @@ const Hero = () => {
               Slate is designed for freelancers
             </span>
           </p>
-          <button className="px-14 py-4 text-[20px] rounded-full capitalize text-white bg-primary border border-solid border-primary shadow-custom space-2">
+          <button className="px-[52px] py-[10px] text-[20px] rounded-full capitalize text-white bg-primary border border-solid border-primary shadow-custom space-2">
             Try for free
           </button>
         </div>
