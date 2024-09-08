@@ -1,4 +1,4 @@
-import { IMAGES } from "../../image-data";
+import { IMAGES } from "../../../image-data";
 
 const Partners = () => {
   const partners = [
@@ -53,11 +53,11 @@ const Partners = () => {
       {/* logo */}
       <div className="container-class md:px-[60px] mt-[40px] ">
         <div className="divide-y divide-[#E8E8E8]">
-          <div className="grid grid-cols-2 sm:grid-cols-4  divide-x divide-[#E8E8E8]">
+          <div className="grid grid-cols-4  divide-x divide-[#E8E8E8]">
             {partners.slice(0, 4).map((partner, index) => (
               <div
                 key={index}
-                className="p-6 flex flex-col justify-center items-center gap-4"
+                className="p-2 sm:p-6 flex flex-col justify-center items-center text-center gap-4"
               >
                 <p className="text-textGray tracking-[0.1px]">
                   {partner.clientName}
@@ -66,11 +66,11 @@ const Partners = () => {
               </div>
             ))}
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-4  divide-x divide-[#E8E8E8]">
+          <div className="grid grid-cols-4 divide-x divide-[#E8E8E8]">
             {partners.slice(4).map((partner, index) => (
               <div
                 key={index}
-                className="p-6 flex flex-col justify-center items-center gap-4"
+                className="p-2 sm:p-6 flex flex-col justify-center items-center text-center gap-4"
               >
                 <p className="text-textGray tracking-[0.1px]">
                   {partner.clientName}

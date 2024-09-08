@@ -2,8 +2,8 @@ import Fastest from "../../components/Home/Fastest/Fastest";
 import Features from "../../components/Home/Features/Features";
 import Fingertip from "../../components/Home/Fingertip/Fingertip";
 import Hero from "../../components/Home/Hero/Hero";
+import Partners from "../../components/Home/Partners/Partners";
 import Testimonials from "../../components/Home/Testimonials/Testimonials";
-import Partners from "../../components/Partners/Partners";
 
 const Home = () => {
   return (
