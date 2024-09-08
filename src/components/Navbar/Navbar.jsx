@@ -67,7 +67,7 @@ const UserSidebar = () => {
         scrollBgColor
           ? "bg-black transition-all duration-1000"
           : "bg-transparent"
-      } text-white px-4 md:px-0 py-4 md:py-0 fixed top-0 left-0 z-[999] w-full h-auto`}
+      } text-white fixed top-0 left-0 z-[999] w-full h-auto`}
     >
       <div className="max-w-[1240px] mx-auto px-[4%] md:px-0">
         <div className="flex items-center justify-between py-4">
@@ -121,7 +121,7 @@ const UserSidebar = () => {
           </div>
           {/* Mobile Navlinks end */}
 
-          {/* auth */}
+          {/* social */}
           <div className="hidden md:flex text-[22px] gap-5 mt-2">
             <FaLinkedin />
             <FaTwitterSquare />
