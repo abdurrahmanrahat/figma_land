@@ -1,3 +1,4 @@
+import Contact from "../../components/Home/Contact/Contact";
 import Fastest from "../../components/Home/Fastest/Fastest";
 import Features from "../../components/Home/Features/Features";
 import Fingertip from "../../components/Home/Fingertip/Fingertip";
@@ -16,6 +17,7 @@ const Home = () => {
       <Partners />
       <Testimonials />
       <Pricing />
+      <Contact />
     </div>
   );
 };

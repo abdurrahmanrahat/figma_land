@@ -29,11 +29,11 @@ const Fingertip = () => {
               <input
                 type="text"
                 placeholder="Your Email"
-                className="w-full px-[28px] py-[14px] rounded-full border border-[#E8E8E8] bg-[#F4F4F4]"
+                className="w-full px-[28px] py-[14px] rounded-full border border-[#E8E8E8] bg-[#F4F4F4] focus:outline-primary"
               />
             </div>
             <div className="col-span-12 md:col-span-4 ">
-              <button className="px-[28px] py-[14px] w-full text-[20px] rounded-full capitalize text-white bg-primary border border-solid border-primary shadow-custom">
+              <button className="px-[36px] py-[12px] w-full text-[20px] rounded-full capitalize text-white bg-primary border border-solid border-primary shadow-custom">
                 Subscribe
               </button>
             </div>

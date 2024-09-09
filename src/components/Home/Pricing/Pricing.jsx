@@ -55,14 +55,14 @@ const Pricing = () => {
 
       {/* price table */}
       <div className="container-class mt-[50px]">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-4 md:gap-8">
           {prices.map((price, index) => (
             <div
               key={index}
-              className="rounded-[10px] border border-[#DEDEDE] px-[40px] py-[50px] bg-white flex flex-col justify-center items-center text-center gap-8 group hover:bg-primary hover:text-white transition-all duration-500"
+              className={`rounded-[10px] border border-[#DEDEDE] px-[40px] py-[50px] sm:px-[12px] sm:py-[24px] md:px-[40px] md:py-[50px] bg-white flex flex-col justify-center items-center text-center shadow-lightShadow gap-8 group hover:bg-primary hover:text-white transition-all duration-500`}
             >
               <div>
-                <h3 className="text-secondary group-hover:text-white transition-all duration-500 text-[20px] font-bold leading-7 tracking-[0.1px]">
+                <h3 className="text-secondary group-hover:text-white transition-all duration-500 text-[20px] font-bold leading-7 tracking-[0.1px] uppercase">
                   {price.title}
                 </h3>
                 <p className="text-textGray group-hover:text-white transition-all duration-500 leading-[23px] tracking-[0.1px] text-center">
@@ -96,7 +96,7 @@ const Pricing = () => {
               </div>
 
               <div className="">
-                <button className="px-[52px] py-[10px] text-[20px] rounded-full capitalize text-white bg-primary border border-solid border-primary shadow-custom space-2 group-hover:text-primary transition-all duration-500 group-hover:bg-white">
+                <button className="px-[52px] py-[10px] sm:px-[36px] sm:py-[10px] md:px-[52px] md:py-[10px] text-[20px] sm:text-17px] md:text-[20px] rounded-full capitalize text-white bg-primary border border-solid border-primary shadow-custom space-2 group-hover:text-primary transition-all duration-500 group-hover:bg-white">
                   Order Now
                 </button>
               </div>

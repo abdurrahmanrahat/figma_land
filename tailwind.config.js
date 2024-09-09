@@ -20,7 +20,7 @@ export default {
       },
       boxShadow: {
         custom: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
-        priceShadow: "0px 13px 19px 0px #00000012"
+        lightShadow: "0px 13px 19px 0px #00000012"
       },
     },
   },

@@ -4,6 +4,7 @@ import feature02 from "./Home/features02.png";
 import feature03 from "./Home/features03.png";
 import fingertip from "./Home/fingertip.png";
 import hero from "./Home/hero.png";
+import map from "./Home/map.png";
 import partner01 from "./Home/partner01.png";
 import partner02 from "./Home/partner02.png";
 import partner03 from "./Home/partner03.png";
@@ -35,5 +36,6 @@ export const IMAGES = {
     Testimonials: {
         testimonialLogo,
         testimonialAvatar
-    }
+    },
+    map
 }
