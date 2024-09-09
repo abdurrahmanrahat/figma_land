@@ -3,6 +3,7 @@ import Features from "../../components/Home/Features/Features";
 import Fingertip from "../../components/Home/Fingertip/Fingertip";
 import Hero from "../../components/Home/Hero/Hero";
 import Partners from "../../components/Home/Partners/Partners";
+import Pricing from "../../components/Home/Pricing/Pricing";
 import Testimonials from "../../components/Home/Testimonials/Testimonials";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Fingertip />
       <Partners />
       <Testimonials />
+      <Pricing />
     </div>
   );
 };
